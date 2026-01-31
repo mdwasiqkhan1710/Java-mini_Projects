@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         // Java Hangman Guessing Game
 
-        String filepath = "src\\words.txt";
+        String filepath = "C:/Users/hp/OneDrive/Desktop/Java-Projects/Hangman_Game/src/words.txt";
         ArrayList<String> words = new ArrayList<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filepath))) {
